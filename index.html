@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="BikeBio" content="This is a simple HTML blog about my bike">
+  <title> Bike Bio Page</title>
+  <style>
+table {
+    font-family: arial, sans-serif;
+}
+td, th {
+    border: 1px solid #dddddd;
+    width: 160px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1> Do You Ride? </h1>
+</header>
+<figure>
+  <img src="http://i1070.photobucket.com/albums/u483/meganvieno/Screen%20Shot%202017-02-07%20at%209.39.47%20PM_zps1pxvrosm.png" width="250" height="350" alt="girl on bike">
+  <figcaption> Just another hipster on a bike </figcaption>
+</figure>
+<div>
+  <h1> Ride Your Bike </h1>
+  <p>
+     Bicyles are cool. Simply dummy text of the printing and typesetting industry.
+     Lorem Ipsum has been the industry's standard dummy text ever since the
+     1500s, when an unknown printer took a galley of type and scrambled it to
+     make a type specimen book. It has survived not only five centuries, but
+     also the leap into electronic typesetting, remaining essentially unchanged.
+  </p>
+</div>
+
+<table >
+  <thead>
+     <tr>
+      <th> Bike Parts </th>
+      <th> Purpose </th>
+      <th> How many </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> Peddle </td>
+      <td> moving </td>
+      <td> 2 </td>
+    </tr>
+    <tr>
+      <td> Handlebars </td>
+      <td> stearing </td>
+      <td> 1 bar </td>
+    </tr>
+    <tr>
+      <td> Wheels </td>
+      <td> moving </td>
+      <td> 2...sometimes 3 </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3> Great websites about bikes</h3>
+<ul>
+  <li>
+    <a href="https://tokyobike.com/">Tokyo Bike </a>
+  </li>
+  <li>
+    <a href="http://www.cycledummiespitstop.com/">Cycle Dummies Pitstop </a>
+  </li>
+  <li>
+    <a href="http://www.icebike.org/hipster-fixie-bikes/">Fixies...You know who you are</a>
+  </li>
+</ul>
+
+<!--survey-->
+<form>
+  <h1> Do you Ride? </h1>
+    <h3> Who are you?</h3>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name"><br>
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name"><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone"><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email"><br>
+
+    <h3> How do you identify?</h3>
+      <input type="radio" id="male" name="male" value="Male">
+      <label for="male"> Male</label>
+
+      <input type="radio" id="female" name="female" value="Female">
+      <label for="female"> Female</label>
+
+      <input type="radio" id="otherRadio" name="other" >
+      <label for="other"> Other</label>
+      <input type="text" id="other" name="other" value="Please enter">
+
+
+    <h3> Where do you ride?</h3>
+      <label for="outside">Nature/Long Distance</label>
+      <input type="checkbox" id="outside" name="location" value="outside"><br>
+
+      <label for="intown">Around Town</label>
+      <input type="checkbox" id="intown" name="location" value="intown"><br>
+
+      <label for="indoor">Indoor</label>
+      <input type="checkbox" id="indoor" name="location" value="indoor"> <br> <br> <br>
+
+    <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
